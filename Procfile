@@ -1,0 +1,1 @@
+web: gunicorn mlibck.wsgi --log-file -
