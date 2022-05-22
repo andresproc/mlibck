@@ -5,7 +5,7 @@ from sklearn import datasets,linear_model
 import matplotlib.pyplot as plt
 
 
-Salarios = pd.read_excel('BaseML3.xlsx')
+Salarios #DataFrame
 
 x = Salarios['Expe']
 X = x[:,np.newaxis]
